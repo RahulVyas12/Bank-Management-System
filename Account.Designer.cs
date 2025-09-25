@@ -295,7 +295,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(669, 582);
+            this.button2.Location = new System.Drawing.Point(671, 592);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(134, 53);
             this.button2.TabIndex = 29;
@@ -357,6 +357,7 @@
             this.Name = "Account";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Account";
+            this.Load += new System.EventHandler(this.Account_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

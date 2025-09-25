@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Bank_Management_System
 {
-    public partial class Account : Form
+    public partial class ChangePIN : Form
     {
-        public Account()
+        public ChangePIN()
         {
             InitializeComponent();
         }
 
-        private void Account_Load(object sender, EventArgs e)
+        private void ChangePIN_Load(object sender, EventArgs e)
         {
 
         }

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Bank_Management_System
 {
-    public partial class Account : Form
+    public partial class Balance : Form
     {
-        public Account()
+        public Balance()
         {
             InitializeComponent();
         }
 
-        private void Account_Load(object sender, EventArgs e)
+        private void Balance_Load(object sender, EventArgs e)
         {
 
         }
