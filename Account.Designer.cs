@@ -76,6 +76,7 @@
             this.label2.Size = new System.Drawing.Size(76, 80);
             this.label2.TabIndex = 2;
             this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -90,7 +91,7 @@
             // 
             // AccNumTb
             // 
-            this.AccNumTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNumTb.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AccNumTb.Location = new System.Drawing.Point(70, 177);
             this.AccNumTb.Multiline = true;
             this.AccNumTb.Name = "AccNumTb";
@@ -110,7 +111,7 @@
             // 
             // AccNameTb
             // 
-            this.AccNameTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNameTb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.AccNameTb.Location = new System.Drawing.Point(70, 264);
             this.AccNameTb.Multiline = true;
             this.AccNameTb.Name = "AccNameTb";
@@ -130,7 +131,7 @@
             // 
             // AccFnameTb
             // 
-            this.AccFnameTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccFnameTb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.AccFnameTb.Location = new System.Drawing.Point(70, 351);
             this.AccFnameTb.Multiline = true;
             this.AccFnameTb.Name = "AccFnameTb";
@@ -150,7 +151,7 @@
             // 
             // AddressTb
             // 
-            this.AddressTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddressTb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.AddressTb.Location = new System.Drawing.Point(70, 437);
             this.AddressTb.Multiline = true;
             this.AddressTb.Name = "AddressTb";
@@ -170,7 +171,7 @@
             // 
             // PhoneTb
             // 
-            this.PhoneTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneTb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.PhoneTb.Location = new System.Drawing.Point(671, 437);
             this.PhoneTb.Multiline = true;
             this.PhoneTb.Name = "PhoneTb";
@@ -223,7 +224,7 @@
             // 
             // PinTb
             // 
-            this.PinTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PinTb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.PinTb.Location = new System.Drawing.Point(669, 177);
             this.PinTb.Multiline = true;
             this.PinTb.Name = "PinTb";
@@ -243,7 +244,7 @@
             // 
             // EducationCb
             // 
-            this.EducationCb.Font = new System.Drawing.Font("Georgia", 7.8F);
+            this.EducationCb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.EducationCb.FormattingEnabled = true;
             this.EducationCb.Items.AddRange(new object[] {
             "Non Graduate",
@@ -251,7 +252,7 @@
             "Post Graduate"});
             this.EducationCb.Location = new System.Drawing.Point(667, 277);
             this.EducationCb.Name = "EducationCb";
-            this.EducationCb.Size = new System.Drawing.Size(384, 24);
+            this.EducationCb.Size = new System.Drawing.Size(384, 35);
             this.EducationCb.TabIndex = 25;
             // 
             // DOBdate
@@ -274,6 +275,7 @@
             this.LogoutBtn.TabIndex = 29;
             this.LogoutBtn.Text = "Logout";
             this.LogoutBtn.UseVisualStyleBackColor = false;
+            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
             // 
             // LoginBtn
             // 
@@ -300,7 +302,7 @@
             // 
             // OccupationTb
             // 
-            this.OccupationTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OccupationTb.Font = new System.Drawing.Font("Georgia", 13.8F);
             this.OccupationTb.Location = new System.Drawing.Point(669, 351);
             this.OccupationTb.Multiline = true;
             this.OccupationTb.Name = "OccupationTb";
