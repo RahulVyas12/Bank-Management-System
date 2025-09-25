@@ -31,29 +31,27 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.AccNumTb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.AccNameTb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.AccFnameTb = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.AddressTb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.PhoneTb = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.PinTb = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.EducationCb = new System.Windows.Forms.ComboBox();
+            this.DOBdate = new System.Windows.Forms.DateTimePicker();
+            this.LogoutBtn = new System.Windows.Forms.Button();
+            this.LoginBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.OccupationTb = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,14 +88,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Bank Management System";
             // 
-            // textBox1
+            // AccNumTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(70, 177);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(384, 49);
-            this.textBox1.TabIndex = 7;
+            this.AccNumTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNumTb.Location = new System.Drawing.Point(70, 177);
+            this.AccNumTb.Multiline = true;
+            this.AccNumTb.Name = "AccNumTb";
+            this.AccNumTb.Size = new System.Drawing.Size(384, 49);
+            this.AccNumTb.TabIndex = 7;
             // 
             // label3
             // 
@@ -110,14 +108,14 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Account Number";
             // 
-            // textBox2
+            // AccNameTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(70, 264);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(384, 49);
-            this.textBox2.TabIndex = 9;
+            this.AccNameTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNameTb.Location = new System.Drawing.Point(70, 264);
+            this.AccNameTb.Multiline = true;
+            this.AccNameTb.Name = "AccNameTb";
+            this.AccNameTb.Size = new System.Drawing.Size(384, 49);
+            this.AccNameTb.TabIndex = 9;
             // 
             // label4
             // 
@@ -130,14 +128,14 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Name";
             // 
-            // textBox3
+            // AccFnameTb
             // 
-            this.textBox3.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(70, 351);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(384, 49);
-            this.textBox3.TabIndex = 11;
+            this.AccFnameTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccFnameTb.Location = new System.Drawing.Point(70, 351);
+            this.AccFnameTb.Multiline = true;
+            this.AccFnameTb.Name = "AccFnameTb";
+            this.AccFnameTb.Size = new System.Drawing.Size(384, 49);
+            this.AccFnameTb.TabIndex = 11;
             // 
             // label5
             // 
@@ -150,14 +148,14 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Father Name";
             // 
-            // textBox4
+            // AddressTb
             // 
-            this.textBox4.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(70, 437);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(384, 49);
-            this.textBox4.TabIndex = 13;
+            this.AddressTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddressTb.Location = new System.Drawing.Point(70, 437);
+            this.AddressTb.Multiline = true;
+            this.AddressTb.Name = "AddressTb";
+            this.AddressTb.Size = new System.Drawing.Size(384, 123);
+            this.AddressTb.TabIndex = 13;
             // 
             // label6
             // 
@@ -170,21 +168,21 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Address";
             // 
-            // textBox5
+            // PhoneTb
             // 
-            this.textBox5.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(70, 524);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(384, 49);
-            this.textBox5.TabIndex = 15;
+            this.PhoneTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneTb.Location = new System.Drawing.Point(671, 437);
+            this.PhoneTb.Multiline = true;
+            this.PhoneTb.Name = "PhoneTb";
+            this.PhoneTb.Size = new System.Drawing.Size(384, 49);
+            this.PhoneTb.TabIndex = 15;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label7.Location = new System.Drawing.Point(64, 489);
+            this.label7.Location = new System.Drawing.Point(665, 402);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(205, 32);
             this.label7.TabIndex = 14;
@@ -206,7 +204,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label9.Location = new System.Drawing.Point(663, 402);
+            this.label9.Location = new System.Drawing.Point(661, 316);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(158, 32);
             this.label9.TabIndex = 22;
@@ -217,40 +215,20 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label10.Location = new System.Drawing.Point(663, 316);
+            this.label10.Location = new System.Drawing.Point(661, 230);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(142, 32);
             this.label10.TabIndex = 20;
             this.label10.Text = "Education";
             // 
-            // textBox9
+            // PinTb
             // 
-            this.textBox9.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(669, 264);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(384, 49);
-            this.textBox9.TabIndex = 19;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label11.Location = new System.Drawing.Point(663, 229);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(112, 32);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Balance";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(669, 177);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(384, 49);
-            this.textBox10.TabIndex = 17;
+            this.PinTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PinTb.Location = new System.Drawing.Point(669, 177);
+            this.PinTb.Multiline = true;
+            this.PinTb.Name = "PinTb";
+            this.PinTb.Size = new System.Drawing.Size(384, 49);
+            this.PinTb.TabIndex = 17;
             // 
             // label12
             // 
@@ -263,52 +241,53 @@
             this.label12.TabIndex = 16;
             this.label12.Text = "PIN";
             // 
-            // comboBox1
+            // EducationCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Georgia", 7.8F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.EducationCb.Font = new System.Drawing.Font("Georgia", 7.8F);
+            this.EducationCb.FormattingEnabled = true;
+            this.EducationCb.Items.AddRange(new object[] {
             "Non Graduate",
             "Under Graduate",
             "Post Graduate"});
-            this.comboBox1.Location = new System.Drawing.Point(669, 363);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(384, 24);
-            this.comboBox1.TabIndex = 25;
+            this.EducationCb.Location = new System.Drawing.Point(667, 277);
+            this.EducationCb.Name = "EducationCb";
+            this.EducationCb.Size = new System.Drawing.Size(384, 24);
+            this.EducationCb.TabIndex = 25;
             // 
-            // dateTimePicker1
+            // DOBdate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Georgia", 7.8F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(669, 538);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
-            this.dateTimePicker1.TabIndex = 27;
+            this.DOBdate.Font = new System.Drawing.Font("Georgia", 7.8F);
+            this.DOBdate.Location = new System.Drawing.Point(669, 538);
+            this.DOBdate.Name = "DOBdate";
+            this.DOBdate.Size = new System.Drawing.Size(265, 22);
+            this.DOBdate.TabIndex = 27;
             // 
-            // button2
+            // LogoutBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(671, 592);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 53);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "Logout";
-            this.button2.UseVisualStyleBackColor = false;
+            this.LogoutBtn.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LogoutBtn.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutBtn.ForeColor = System.Drawing.Color.White;
+            this.LogoutBtn.Location = new System.Drawing.Point(671, 592);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.Size = new System.Drawing.Size(134, 53);
+            this.LogoutBtn.TabIndex = 29;
+            this.LogoutBtn.Text = "Logout";
+            this.LogoutBtn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // LoginBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(329, 592);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 53);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
+            this.LoginBtn.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginBtn.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.White;
+            this.LoginBtn.Location = new System.Drawing.Point(329, 592);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(125, 53);
+            this.LoginBtn.TabIndex = 28;
+            this.LoginBtn.Text = "Submit";
+            this.LoginBtn.UseVisualStyleBackColor = false;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // panel2
             // 
@@ -319,42 +298,40 @@
             this.panel2.Size = new System.Drawing.Size(1205, 10);
             this.panel2.TabIndex = 30;
             // 
-            // textBox6
+            // OccupationTb
             // 
-            this.textBox6.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(671, 437);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(384, 49);
-            this.textBox6.TabIndex = 31;
+            this.OccupationTb.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OccupationTb.Location = new System.Drawing.Point(669, 351);
+            this.OccupationTb.Multiline = true;
+            this.OccupationTb.Name = "OccupationTb";
+            this.OccupationTb.Size = new System.Drawing.Size(384, 49);
+            this.OccupationTb.TabIndex = 31;
             // 
             // Account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1205, 675);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.OccupationTb);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.LogoutBtn);
+            this.Controls.Add(this.LoginBtn);
+            this.Controls.Add(this.DOBdate);
+            this.Controls.Add(this.EducationCb);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.PinTb);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.PhoneTb);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.AddressTb);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.AccFnameTb);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.AccNameTb);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AccNumTb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -374,28 +351,26 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox AccNumTb;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox AccNameTb;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox AccFnameTb;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox AddressTb;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox PhoneTb;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox PinTb;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox EducationCb;
+        private System.Windows.Forms.DateTimePicker DOBdate;
+        private System.Windows.Forms.Button LogoutBtn;
+        private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox OccupationTb;
     }
 }
