@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -38,7 +39,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.AccNumLbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +53,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1152, 100);
             this.panel1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(1076, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 80);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "X";
             // 
             // label1
             // 
@@ -102,6 +114,7 @@
             this.button3.TabIndex = 12;
             this.button3.Text = "Mini Statement";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -128,6 +141,7 @@
             this.button5.TabIndex = 14;
             this.button5.Text = "Balance";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -157,29 +171,32 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(489, 559);
+            this.button7.Location = new System.Drawing.Point(493, 549);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(140, 53);
             this.button7.TabIndex = 16;
             this.button7.Text = "Logout";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // label2
+            // AccNumLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(1076, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 80);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "X";
+            this.AccNumLbl.AutoSize = true;
+            this.AccNumLbl.Font = new System.Drawing.Font("Georgia", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNumLbl.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.AccNumLbl.Location = new System.Drawing.Point(386, 131);
+            this.AccNumLbl.Name = "AccNumLbl";
+            this.AccNumLbl.Size = new System.Drawing.Size(355, 51);
+            this.AccNumLbl.TabIndex = 3;
+            this.AccNumLbl.Text = "Account Number";
+            this.AccNumLbl.Click += new System.EventHandler(this.label3_Click);
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1152, 628);
+            this.Controls.Add(this.AccNumLbl);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button5);
@@ -193,9 +210,11 @@
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -212,5 +231,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label AccNumLbl;
     }
 }

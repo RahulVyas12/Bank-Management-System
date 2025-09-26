@@ -83,6 +83,7 @@
             this.label2.Size = new System.Drawing.Size(76, 80);
             this.label2.TabIndex = 2;
             this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -105,8 +106,9 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(140, 53);
             this.button7.TabIndex = 52;
-            this.button7.Text = "Logout";
+            this.button7.Text = "Back";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // dataGridView1
             // 
@@ -132,6 +134,7 @@
             this.Name = "MiniStatement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MiniStatement";
+            this.Load += new System.EventHandler(this.MiniStatement_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

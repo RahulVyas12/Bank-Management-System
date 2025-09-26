@@ -18,6 +18,7 @@ namespace Bank_Management_System
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\.net\24SOEIT13021(RAHUL)\Bank-Management-System\ATMDB.mdf;Integrated Security=True");
+        public static string accountNum;
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -43,6 +44,7 @@ namespace Bank_Management_System
             sda.Fill(dt);
             if (dt.Rows[0][0].ToString() == "1")
             {
+                accountNum = AccNumTb.Text;
                Home home = new Home();
                 home.Show();
                 this.Hide();
@@ -53,6 +55,11 @@ namespace Bank_Management_System
                 MessageBox.Show("Wrong Account Number or Pin");
             }
             con.Close();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

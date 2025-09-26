@@ -16,5 +16,22 @@ namespace Bank_Management_System
         {
             InitializeComponent();
         }
+
+        private void MiniStatement_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

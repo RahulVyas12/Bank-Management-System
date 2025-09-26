@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -40,7 +41,6 @@
             this.LoginBtn = new System.Windows.Forms.Button();
             this.SignUpBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,18 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft JhengHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(895, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 76);
+            this.label5.TabIndex = 33;
+            this.label5.Text = "X";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -64,7 +76,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(153, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(669, 51);
+            this.label1.Size = new System.Drawing.Size(649, 49);
             this.label1.TabIndex = 1;
             this.label1.Text = "BANK MANAGEMENT SYSTEM";
             // 
@@ -165,18 +177,6 @@
             this.panel2.Size = new System.Drawing.Size(967, 10);
             this.panel2.TabIndex = 32;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft JhengHei", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(895, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 76);
-            this.label5.TabIndex = 33;
-            this.label5.Text = "X";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -197,6 +197,7 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

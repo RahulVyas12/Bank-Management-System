@@ -16,5 +16,36 @@ namespace Bank_Management_System
         {
             InitializeComponent();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Balance bal = new Balance();
+            bal.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MiniStatement Min = new MiniStatement();
+            Min.Show();
+            this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            AccNumLbl.Text = "Account Number:" + Login.accountNum;
+        }
     }
 }
