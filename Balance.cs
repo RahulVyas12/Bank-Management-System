@@ -22,7 +22,7 @@ namespace Bank_Management_System
         public void getBalance()
         {
             con.Open();
-            SqlDataAdapter sda = new SqlDataAdapter("select Balance from AccountTbl where AccNum='" + Login.accountNum + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter("select Balance from AccountTbl where AccNum='" + AccNumLbl.Text + "'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             BalanceLbl.Text = dt.Rows[0][0].ToString();

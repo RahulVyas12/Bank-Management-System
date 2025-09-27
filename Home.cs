@@ -67,5 +67,12 @@ namespace Bank_Management_System
             cp.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Withdraw wd = new Withdraw();
+            wd.Show();
+            this.Hide();
+        }
     }
 }
