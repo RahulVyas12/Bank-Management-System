@@ -157,6 +157,7 @@
             this.button6.TabIndex = 13;
             this.button6.Text = "Change Pin";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel2
             // 
@@ -188,7 +189,7 @@
             this.AccNumLbl.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.AccNumLbl.Location = new System.Drawing.Point(386, 131);
             this.AccNumLbl.Name = "AccNumLbl";
-            this.AccNumLbl.Size = new System.Drawing.Size(355, 51);
+            this.AccNumLbl.Size = new System.Drawing.Size(348, 49);
             this.AccNumLbl.TabIndex = 3;
             this.AccNumLbl.Text = "Account Number";
             this.AccNumLbl.Click += new System.EventHandler(this.label3_Click);

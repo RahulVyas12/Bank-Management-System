@@ -60,5 +60,12 @@ namespace Bank_Management_System
         {
             Application.Exit();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ChangePIN cp = new ChangePIN();
+            cp.Show();
+            this.Hide();
+        }
     }
 }

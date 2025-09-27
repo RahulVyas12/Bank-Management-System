@@ -49,8 +49,8 @@ namespace Bank_Management_System
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Amount Deposited Successfully");
                     con.Close();
-                    Home home = new Home();
-                    home.Show();
+                    Login log = new Login();
+                    log.Show();
                     this.Hide();
                 }
                 catch (Exception Ex)
