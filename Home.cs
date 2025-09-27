@@ -47,5 +47,18 @@ namespace Bank_Management_System
         {
             AccNumLbl.Text = "Account Number:" + Login.accountNum;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Deposite dep = new Deposite();
+            dep.Show();
+            this.Hide();
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

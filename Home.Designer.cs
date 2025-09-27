@@ -64,6 +64,7 @@
             this.label2.Size = new System.Drawing.Size(76, 80);
             this.label2.TabIndex = 2;
             this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -88,6 +89,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Deposite";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
