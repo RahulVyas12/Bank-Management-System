@@ -126,11 +126,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label4.Location = new System.Drawing.Point(411, 117);
+            this.label4.Location = new System.Drawing.Point(441, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 35);
+            this.label4.Size = new System.Drawing.Size(149, 36);
             this.label4.TabIndex = 48;
             this.label4.Text = "Withdraw";
             // 
@@ -146,11 +146,11 @@
             // BalanceLbl
             // 
             this.BalanceLbl.AutoSize = true;
-            this.BalanceLbl.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BalanceLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BalanceLbl.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.BalanceLbl.Location = new System.Drawing.Point(389, 173);
             this.BalanceLbl.Name = "BalanceLbl";
-            this.BalanceLbl.Size = new System.Drawing.Size(234, 32);
+            this.BalanceLbl.Size = new System.Drawing.Size(243, 32);
             this.BalanceLbl.TabIndex = 49;
             this.BalanceLbl.Text = "Available Balance";
             // 

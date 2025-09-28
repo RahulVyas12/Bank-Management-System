@@ -113,7 +113,7 @@
             // 
             // AccNumTb
             // 
-            this.AccNumTb.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNumTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.AccNumTb.Location = new System.Drawing.Point(371, 224);
             this.AccNumTb.Multiline = true;
             this.AccNumTb.Name = "AccNumTb";
@@ -122,7 +122,7 @@
             // 
             // PinTb
             // 
-            this.PinTb.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PinTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PinTb.Location = new System.Drawing.Point(371, 330);
             this.PinTb.Multiline = true;
             this.PinTb.Name = "PinTb";

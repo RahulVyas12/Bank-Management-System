@@ -74,5 +74,12 @@ namespace Bank_Management_System
             wd.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FastCash fc = new FastCash();
+            fc.Show();
+            this.Hide();
+        }
     }
 }

@@ -65,7 +65,7 @@ namespace Bank_Management_System
             }
             else
             {
-                int newBalance = balance - Convert.ToInt32(withdrawAmtTb.Text);
+                newBalance = balance - Convert.ToInt32(withdrawAmtTb.Text);
                 try
                 {
                     con.Open();

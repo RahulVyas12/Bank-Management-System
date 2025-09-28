@@ -91,7 +91,7 @@
             // 
             // AccNumTb
             // 
-            this.AccNumTb.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNumTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.AccNumTb.Location = new System.Drawing.Point(70, 177);
             this.AccNumTb.Multiline = true;
             this.AccNumTb.Name = "AccNumTb";
@@ -111,7 +111,7 @@
             // 
             // AccNameTb
             // 
-            this.AccNameTb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.AccNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.AccNameTb.Location = new System.Drawing.Point(70, 264);
             this.AccNameTb.Multiline = true;
             this.AccNameTb.Name = "AccNameTb";
@@ -131,7 +131,7 @@
             // 
             // AccFnameTb
             // 
-            this.AccFnameTb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.AccFnameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.AccFnameTb.Location = new System.Drawing.Point(70, 351);
             this.AccFnameTb.Multiline = true;
             this.AccFnameTb.Name = "AccFnameTb";
@@ -151,7 +151,7 @@
             // 
             // AddressTb
             // 
-            this.AddressTb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.AddressTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.AddressTb.Location = new System.Drawing.Point(70, 437);
             this.AddressTb.Multiline = true;
             this.AddressTb.Name = "AddressTb";
@@ -171,7 +171,7 @@
             // 
             // PhoneTb
             // 
-            this.PhoneTb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.PhoneTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.PhoneTb.Location = new System.Drawing.Point(671, 437);
             this.PhoneTb.Multiline = true;
             this.PhoneTb.Name = "PhoneTb";
@@ -224,7 +224,7 @@
             // 
             // PinTb
             // 
-            this.PinTb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.PinTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.PinTb.Location = new System.Drawing.Point(669, 177);
             this.PinTb.Multiline = true;
             this.PinTb.Name = "PinTb";
@@ -244,7 +244,7 @@
             // 
             // EducationCb
             // 
-            this.EducationCb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.EducationCb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.EducationCb.FormattingEnabled = true;
             this.EducationCb.Items.AddRange(new object[] {
             "Non Graduate",
@@ -252,15 +252,15 @@
             "Post Graduate"});
             this.EducationCb.Location = new System.Drawing.Point(667, 277);
             this.EducationCb.Name = "EducationCb";
-            this.EducationCb.Size = new System.Drawing.Size(384, 35);
+            this.EducationCb.Size = new System.Drawing.Size(384, 39);
             this.EducationCb.TabIndex = 25;
             // 
             // DOBdate
             // 
-            this.DOBdate.Font = new System.Drawing.Font("Georgia", 7.8F);
+            this.DOBdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DOBdate.Location = new System.Drawing.Point(669, 538);
             this.DOBdate.Name = "DOBdate";
-            this.DOBdate.Size = new System.Drawing.Size(265, 22);
+            this.DOBdate.Size = new System.Drawing.Size(384, 28);
             this.DOBdate.TabIndex = 27;
             // 
             // LogoutBtn
@@ -302,7 +302,7 @@
             // 
             // OccupationTb
             // 
-            this.OccupationTb.Font = new System.Drawing.Font("Georgia", 13.8F);
+            this.OccupationTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.OccupationTb.Location = new System.Drawing.Point(669, 351);
             this.OccupationTb.Multiline = true;
             this.OccupationTb.Name = "OccupationTb";

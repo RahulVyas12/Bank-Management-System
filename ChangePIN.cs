@@ -28,7 +28,9 @@ namespace Bank_Management_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Home home = new Home();
+            home.Show();
+            this.Close();
         }
 
         private void label2_Click(object sender, EventArgs e)

@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -31,6 +32,25 @@ namespace Bank_Management_System
             con.Close();
         }
 
+        private void AddTransactionMethod()
+        {
+            string TransactionType = "Deposit";
+            try
+            {
+                con.Open();
+                string query = "insert into TransactionTbl values('" + Acc + "','" + TransactionType + "'," + DepositeAmtLbl.Text + ",'" + DateTime.Today.ToString() + "')";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+
+                con.Close();
+
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+           
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             if (DepositeAmtLbl.Text == "" || Convert.ToInt32(DepositeAmtLbl.Text) <= 0)
@@ -49,6 +69,7 @@ namespace Bank_Management_System
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Amount Deposited Successfully");
                     con.Close();
+                    AddTransactionMethod();
                     Login log = new Login();
                     log.Show();
                     this.Hide();

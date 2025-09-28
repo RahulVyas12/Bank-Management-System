@@ -68,7 +68,7 @@
             // 
             // pin1Tb
             // 
-            this.pin1Tb.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pin1Tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.pin1Tb.Location = new System.Drawing.Point(206, 212);
             this.pin1Tb.Multiline = true;
             this.pin1Tb.Name = "pin1Tb";
@@ -88,7 +88,7 @@
             // 
             // pin2Tb
             // 
-            this.pin2Tb.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pin2Tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.pin2Tb.Location = new System.Drawing.Point(206, 318);
             this.pin2Tb.Multiline = true;
             this.pin2Tb.Name = "pin2Tb";
