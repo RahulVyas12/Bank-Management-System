@@ -32,6 +32,26 @@ namespace Bank_Management_System
             con.Close();
         }
 
+        private void AddTransactionMethod()
+        {
+            string TransactionType = "Withdraw";
+            try
+            {
+                con.Open();
+                string query = "insert into TransactionTbl values('" + Acc + "','" + TransactionType + "'," + withdrawAmtTb.Text + ",'" + DateTime.Today.ToString() + "')";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+
+                con.Close();
+
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -74,6 +94,7 @@ namespace Bank_Management_System
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Amount Withdraw Successful");
                     con.Close();
+                    AddTransactionMethod();
                     Login login = new Login();
                     login.Show();
                     this.Hide();
