@@ -32,6 +32,34 @@ namespace Bank_Management_System
             {
                 MessageBox.Show("Missing Information");
             }
+            // Account number validation (numeric)
+            if (!AccNumTb.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("Account Number must be numeric.");
+                return;
+            }
+
+            // Name validation (no digits)
+            if (AccNameTb.Text.Any(char.IsDigit) || AccFnameTb.Text.Any(char.IsDigit))
+            {
+                MessageBox.Show("Name fields must not contain digits.");
+                return;
+            }
+
+            // Phone number validation
+            if (PhoneTb.Text.Length != 10 || !PhoneTb.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("Phone Number should be exactly 10 digits and numeric.");
+                return;
+            }
+
+            // PIN validation
+            if (PinTb.Text.Length != 6 || !PinTb.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("PIN should be exactly 4 digits and numeric.");
+                return;
+            }
+
             else
             {
                 try
@@ -41,7 +69,10 @@ namespace Bank_Management_System
                     SqlCommand cmd = new SqlCommand(query,con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Account Created Successfully");
-                    
+                    Login log = new Login();
+                    log.Show();
+                    this.Hide();
+
                     con.Close();
 
                 }

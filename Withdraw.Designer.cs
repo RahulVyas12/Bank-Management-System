@@ -57,7 +57,7 @@
             // 
             // withdrawAmtTb
             // 
-            this.withdrawAmtTb.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.withdrawAmtTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.withdrawAmtTb.Location = new System.Drawing.Point(211, 269);
             this.withdrawAmtTb.Multiline = true;
             this.withdrawAmtTb.Name = "withdrawAmtTb";

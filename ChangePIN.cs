@@ -23,6 +23,8 @@ namespace Bank_Management_System
 
         private void ChangePIN_Load(object sender, EventArgs e)
         {
+            pin1Tb.PasswordChar = '*';
+            pin2Tb.PasswordChar = '*';
 
         }
 

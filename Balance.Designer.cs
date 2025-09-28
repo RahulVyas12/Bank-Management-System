@@ -97,22 +97,22 @@
             // AccNumLbl
             // 
             this.AccNumLbl.AutoSize = true;
-            this.AccNumLbl.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccNumLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.AccNumLbl.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.AccNumLbl.Location = new System.Drawing.Point(521, 176);
             this.AccNumLbl.Name = "AccNumLbl";
-            this.AccNumLbl.Size = new System.Drawing.Size(125, 32);
+            this.AccNumLbl.Size = new System.Drawing.Size(123, 32);
             this.AccNumLbl.TabIndex = 33;
             this.AccNumLbl.Text = "Acc num";
             // 
             // BalanceLbl
             // 
             this.BalanceLbl.AutoSize = true;
-            this.BalanceLbl.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BalanceLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F);
             this.BalanceLbl.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.BalanceLbl.Location = new System.Drawing.Point(521, 227);
             this.BalanceLbl.Name = "BalanceLbl";
-            this.BalanceLbl.Size = new System.Drawing.Size(155, 32);
+            this.BalanceLbl.Size = new System.Drawing.Size(164, 32);
             this.BalanceLbl.TabIndex = 35;
             this.BalanceLbl.Text = "Balance RS";
             this.BalanceLbl.Click += new System.EventHandler(this.label5_Click);

@@ -59,7 +59,7 @@ namespace Bank_Management_System
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            PinTb.PasswordChar = '*';
         }
     }
 }

@@ -56,7 +56,7 @@
             // 
             // DepositeAmtLbl
             // 
-            this.DepositeAmtLbl.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DepositeAmtLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DepositeAmtLbl.Location = new System.Drawing.Point(207, 240);
             this.DepositeAmtLbl.Multiline = true;
             this.DepositeAmtLbl.Name = "DepositeAmtLbl";
