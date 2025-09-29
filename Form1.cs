@@ -26,7 +26,7 @@ namespace Bank_Management_System
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            starting += 1;
+            starting += 5;
             MyProgress.Value = starting;
             PercentageLbl.Text = "" + starting + " %";
             if (MyProgress.Value == 100)
