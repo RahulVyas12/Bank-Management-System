@@ -62,6 +62,7 @@
             this.DepositeAmtLbl.Name = "DepositeAmtLbl";
             this.DepositeAmtLbl.Size = new System.Drawing.Size(545, 49);
             this.DepositeAmtLbl.TabIndex = 35;
+            this.DepositeAmtLbl.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DepositeAmtLbl_KeyPress);
             // 
             // label3
             // 
@@ -136,7 +137,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label4.Location = new System.Drawing.Point(445, 128);
+            this.label4.Location = new System.Drawing.Point(426, 121);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(151, 35);
             this.label4.TabIndex = 41;

@@ -63,6 +63,7 @@
             this.withdrawAmtTb.Name = "withdrawAmtTb";
             this.withdrawAmtTb.Size = new System.Drawing.Size(545, 49);
             this.withdrawAmtTb.TabIndex = 44;
+            this.withdrawAmtTb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.withdrawAmtTb_KeyPress);
             // 
             // label3
             // 

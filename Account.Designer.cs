@@ -230,6 +230,7 @@
             this.PinTb.Name = "PinTb";
             this.PinTb.Size = new System.Drawing.Size(384, 49);
             this.PinTb.TabIndex = 17;
+            this.PinTb.TextChanged += new System.EventHandler(this.PinTb_TextChanged);
             // 
             // label12
             // 

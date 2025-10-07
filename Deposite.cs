@@ -93,6 +93,14 @@ namespace Bank_Management_System
             Application.Exit();
         }
 
+        private void DepositeAmtLbl_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
         private void Deposite_Load(object sender, EventArgs e)
         {
             getBalanceMethod();

@@ -56,7 +56,7 @@ namespace Bank_Management_System
             // PIN validation
             if (PinTb.Text.Length != 6 || !PinTb.Text.All(char.IsDigit))
             {
-                MessageBox.Show("PIN should be exactly 4 digits and numeric.");
+                MessageBox.Show("PIN should be exactly 6 digits and numeric.");
                 return;
             }
 
@@ -93,6 +93,11 @@ namespace Bank_Management_System
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void PinTb_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
